@@ -50,3 +50,28 @@ h2{
 .btn:hover {
     background: #468486;
 }
+.feature{
+    width: 32%;
+    display: inline-block;
+    font-size: 16px;
+}
+.feature img{
+    width: 40%;
+}
+blockquote{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+blockquote p {
+    margin: 0 0 5px 0;
+    font-style: italic;
+}
+blockquote cite{
+    font-size: 16px;
+    font-style: italic;
+}
+blockquote cite:before{
+    content: '-';
+    margin-right: 5px;
+}
