@@ -35,6 +35,11 @@ h2{
     margin: 0 auto;
     padding: 0 20px;
     max-width: 900px;
+    display: flex;
+    align-items: stretch;
+}
+.container{
+    flex: 1;
 }
 .btn {
     display: inline-block;
@@ -53,10 +58,16 @@ h2{
 .feature{
     width: 32%;
     display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 0 0 10px 0;
     font-size: 16px;
 }
 .feature img{
-    width: 40%;
+    width: 15%;
+    min-width: 60px;
+    margin-right: 20px;
 }
 blockquote{
     margin: 0;
