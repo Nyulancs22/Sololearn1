@@ -80,7 +80,7 @@ footer ul {
 }
 
 footer li {
-    display: block;
+    display: inline-block;
     margin: 5px 0;
 }
 
